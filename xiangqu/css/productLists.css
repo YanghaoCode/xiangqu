@@ -1,0 +1,87 @@
+#list,#listTit{width:1071px;margin:0 auto;}
+
+/*listTit*/
+#listTit{
+	line-height: 95px;height: 95px;width: 1125px;
+}
+#listTit p{
+	width: 5px;height:22px;background: #000000;float: left;margin-top: 37px;
+}
+#listTit h2{
+	font-size: 18px;float: left;padding: 0 10px;
+}
+#listTit a{
+	padding: 3px 8px;background: #CCCCCC;color: #444444;margin: 0 5px;
+	font-size: 12px;border-radius: 10px;
+}
+#listTit a.active{
+	background: #000000;color: #fff;
+}
+#listTit a:hover{
+	background: #000000;color: #fff;
+}
+#listTit img{
+	float: right;margin-top: 45px;
+}
+/*list*/
+#list_back{
+	height: 1800px
+}
+#list{
+	width: 1125px;height: auto;
+}
+#list dl{
+	width: 342px;height: 510px;border: 1px solid #DCDCDC;float: left;margin-right:30px ;
+	margin-bottom: 20px;
+}
+#list dl dt{
+	width:342px;height: 342px;text-align: center;
+}
+#list dl dt img{
+	width: 320px;height: 320px;vertical-align: middle;margin-left: 5px;
+}
+#list dl dt span{height:100%; vertical-align:middle; display:inline-block; width:0;}
+#list dl dd{
+	height: 168px;width: 342px;text-align: center;
+}
+#list dl dd .dd1{
+	width: 210px;height: 31px;padding-top: 15px;overflow: hidden;
+	font-size: 12px;margin-left: 70px;ba ckground: yellow;margin-bottom: 20px;
+}
+#list dl dd .dd1 i{
+	font-style: normal;float: left;
+}
+#list dl dd .dd1 p{
+	float: left;margin-right: 10px;
+}
+#list dl dd .dd1 .changeNum{
+	float: left;margin-right: 10px;width:20px ;height: 62px;
+	position: relative;
+}
+#list dl dd .dd1 .changeNum span{
+	display: block;font-weight: bold;
+}
+#list dl dd .dd1 b{
+	float: left;margin-right: 10px;
+}
+#list dl dd .dd1 img{
+	float: left;margin-right: 10px;cursor: pointer;
+}
+#list dl dd a{
+	color: #000000;height:20px;line-height: 20px;
+}
+#list dl dd a.active{
+	width:auto;background: #000000;color: #fff;border-radius: 10px;overflow: hidden;
+}
+#list dl dd a span{
+	display: none;
+}
+#list dl dd .dd2{
+	width: 196px;height: 55px;border-bottom:1px dashed #9A9A9A ;margin-left: 70px;
+}
+#list dl dd .dd2 span{
+	font-size: 14px;line-height: 50px;
+}
+#list dl dd .dd3{
+	width: auto;height: 20px;
+}

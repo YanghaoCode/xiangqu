@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/productLists.css"/>
+		<script type="text/javascript" src="../js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/strOper.js" ></script>
+		
+	</head>
+	<body>
+		<!--top-->
+		<div id="top_back">
+			<div id="top">
+				<div class="top-left">
+					<a href="#"><img src="../images/logo.jpg" /></a>
+				</div>
+				<div class="top-right">
+					<a href="#">登录</a>
+					<a href="#">注册</a>
+					<a href="#" class="aChangeColor">设计师入驻</a>
+					<a href="#" class="mouseErweima">下载app <b><img src="../images/jtBt.png"/></b></a>
+				</div>
+				<div class="erweima">
+					<img src="../images/erweima.png" />
+				</div>
+			</div>
+		</div>
+		<!--ban-->
+		<div id="ban_back">
+			<div id="ban">
+				<div class="ban-left">
+					<a href="#" class="active banFirst">首页</a>
+					<a href="#">逛 </a>
+					<a href="#">限时购</a>
+					<a href="#">设计师</a>
+					<a href="#">小站</a>
+				</div>
+				<div class="ban-right">
+					<input type="text" class="text" placeholder="搜索你感兴趣的品牌" />
+					<input type="submit" class="submit" value="" />
+				</div>
+				<div class="search">
+					<ul>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--listTit-->
+		<div id="listTit_back">
+			<div id="listTit">
+				<p></p>
+				<h2>上装</h2>
+				<p></p>
+				<a href="#">推荐</a>
+				<a href="#" class="active">最新</a>
+				<a href="#">最热</a>
+				<img src="../images/list-line.png"/>
+			</div>	
+		</div>
+		<!--list-->
+		<div id="list_back">
+			<div id="list">
+				<!--<dl>
+					<dt>
+						<img src="../images/list1.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list2.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list3.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list4.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list5.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list6.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list7.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				
+				
+				<dl>
+					<dt>
+						<img src="../images/list8.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="../images/list9.jpg"/>
+						<span></span>
+					</dt>
+					<dd>
+						<div class="dd1">
+							<p>-----</p>
+							<i>￥</i><b>178.00</b>
+							<img src="../images/like.png"/>
+							<div class="changeNum">
+								<span>0</span><br />
+								<span>+1</span>
+							</div>
+							<p>-----</p>
+						</div>
+						<div class="dd3">
+							<a href="#">MACHEDA
+							<span>的全部商品</span>
+							</a>
+						</div>
+						<div class="dd2">
+							<span>长袖衬衣</span>
+							<span>·</span>
+							<span>翻领衬衫</span>
+						</div>
+					</dd>
+				</dl>-->
+			</div>
+			<h2>注：点击图片 </h2>
+			<h2>添加到购物车</h2>
+		</div>
+		<!--bottom-->
+		<div id="bottom_back">
+			<div id="bottom">
+				<img src="../images/bottom.png"/>
+			</div>
+		</div>
+	
+	<script type="text/javascript" src="../js/common.js" ></script>
+		<script type="text/javascript" src="../js/productLists.js" ></script>
+	</body>
+</html>

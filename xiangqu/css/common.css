@@ -1,0 +1,92 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+img { border:none; }
+ul, ol,li {list-style:none; }
+a {text-decoration:none;margin: 0;padding: 0; font-family: "微软雅黑";}
+p,span,h2,b,i{font-family: "微软雅黑";}
+boby{font-size:12px;}
+#top,#ban,#lbt,#allLike,#brand,#handwork,#square,#guess,#bottom{width:1071px;margin:0 auto;}
+*:focus {outline: none;} 
+
+/*top*/
+#top_back{
+	height: 50px;background: #000;
+}
+#top{
+	height: 50px;position: relative;
+}
+#top .top-left{
+	width: 329px;float: left;padding-top: 10px;
+}
+#top .top-right{
+	width: 742px;float: right;height: 50px;text-indent: 395px;
+}
+#top .top-right a{
+	font-size: 12px;color: #cfcfcf;line-height: 50px;padding: 0 18px;
+	/*border-right: 1px solid #CFCFCF;*/
+}
+#top .top-right a:hover{
+	color: #FFFFFF;
+}
+#top .top-right .mouseErweima{
+	padding-right: 0px;
+}
+#top .top-right .aChangeColor{
+	color: orange;
+}
+#top .erweima{
+	position: absolute;top: 50px;left: 951px;display: none;z-index: 1;
+}
+#top .erweima img{
+	width: 120px;height: 120px;
+}
+
+
+/*ban*/
+#ban_back{
+	height: 66px;
+}
+#ban{
+	height: 66px;position: relative;
+}
+#ban .ban-left{
+	width: 708px;height: 66px;float: left;
+}
+#ban .ban-right{
+	width:362px;height:50px;float: right;padding-top: 16px;
+}
+#ban .ban-left a{
+	font-size: 18px;line-height: 66px;color: #000000;padding: 5px 5px;margin: 0 24px;
+}
+#ban .ban-left a.active{
+	border-bottom: 2px solid #000000;
+}
+#ban .ban-right .text{
+	float: left;border: none;width:308px;height: 31px;border: 1px solid #CFCFCF;
+}
+#ban .ban-right .submit{
+	width: 47px;height: 34px;background: #000000 url(../images/search.png) no-repeat center;border: none;
+	cursor: pointer;
+}
+#ban .search{
+	width: 310px;height: 300px;border: 1px solid #CFCFCF;border-top: none;
+	position: absolute;top:51px;left:709px;background: #FFFFFF;opacity: 0.9;
+	display: none;z-index: 2;
+}
+#ban .search.active{
+	display: block;width: 310px;height: 300px;border: 1px solid #CFCFCF;border-top: none;
+	position: absolute;top:51px;left:709px;background: #FFFFFF;opacity: 0.9;z-index: 2;
+}
+#ban .search li{
+	height: 30px;width: 310px;text-indent: 10px;
+}
+#ban .search li a{
+	font-size: 12px;line-height: 30px;color: gray;
+}
+#ban .search li.active{
+	background: #CFCFCF;color: #000000;
+}
+
+/*bottom*/
+#bottom_back{
+	background: #000000;margin-top: 100px;
+}

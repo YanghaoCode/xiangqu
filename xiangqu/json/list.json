@@ -1,0 +1,11 @@
+[
+	{"id":"1001","imgSrc":"../images/list1.jpg","price":"178.00","brand":"MACHEDA","tag1":"长袖衬衣","tag2":"做旧","color":"黑色"},
+	{"id":"1002","imgSrc":"../images/list2.jpg","price":"198.00","brand":"MACHEDA","tag1":"长袖衬衣","tag2":"经典","color":"黑色"},
+	{"id":"1003","imgSrc":"../images/list3.jpg","price":"158.00","brand":"MACHEDA","tag1":"卫衣韩","tag2":"限量","color":"蓝色"},
+	{"id":"1004","imgSrc":"../images/list4.jpg","price":"218.00","brand":"MACHEDA","tag1":"长袖衬衣","tag2":"创意","color":"黑白格子"},
+	{"id":"1005","imgSrc":"../images/list5.jpg","price":"98.00","brand":"MACHEDA","tag1":"棉麻衬衫","tag2":"纯色","color":"灰色"},
+	{"id":"1006","imgSrc":"../images/list6.jpg","price":"278.00","brand":"MACHEDA","tag1":"时尚简约","tag2":"时尚简约","color":"灰色"},
+	{"id":"1007","imgSrc":"../images/list7.jpg","price":"288.00","brand":"MACHEDA","tag1":"牛仔外套","tag2":"趣味","color":"浅蓝色"},
+	{"id":"1008","imgSrc":"../images/list8.jpg","price":"198.00","brand":"MACHEDA","tag1":"长袖衬衣","tag2":"改良汉服","color":"棕色"},
+	{"id":"1009","imgSrc":"../images/list9.jpg","price":"178.00","brand":"MACHEDA","tag1":"长袖衬衣","tag2":"翻领衬衫","color":"黑色"}
+]
